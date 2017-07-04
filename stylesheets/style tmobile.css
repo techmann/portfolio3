@@ -1,0 +1,175 @@
+
+.nav {
+    background-color: #E5E8EB;
+}
+
+.nav-links a, .nav-links label {
+    color: #444;
+}
+
+.nav-links a:hover, .nav-links label:hover {
+    color: #E20075;
+}
+
+#pie img {
+    height: 500px;
+    position: absolute;
+    left: -100px;
+}
+
+#pie {
+    margin-bottom: 500px;
+}
+
+#pie h2 {
+    margin-top: 150px;
+}
+
+#flow img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#flow {
+    margin-bottom: 400px;
+}
+
+#research {
+    margin-bottom: 300px;
+}
+
+#gutter {
+    margin-top: 300px;
+}
+
+#research img {
+    position: relative;
+    left: -50px;
+}
+
+#research h2 {
+    margin-top: 70px;
+}
+
+#stake img, #bottomline img {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+#stake h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.outer {
+  width: 1px;
+  height: 280px;
+  background-color: #eee;
+  margin: 0 75px 0 75px;
+}
+
+.top {
+    border-top: 1px solid #eee;
+    width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#bottomline img {
+    width: 100px;
+}
+
+#bottomline h2 {
+    text-align: center;
+}
+
+#bottomline p {
+    margin: 10px 0px 20px 30px;
+}
+
+#bottomline {
+    margin-bottom: 300px;
+}
+
+.btn:hover {
+    background-color: #E10068;
+    color: white;
+    box-shadow: inset 0 0 0 1px #E10068;
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    #pie img {
+        left: -150;
+    }
+
+    #research img {
+        position: relative;
+        left: 0px;
+        width: 350px;
+        padding-right: 20px;
+    }
+
+    .top {
+        width: 550px;
+    }
+
+    .outer {
+        height: 310px;
+    }
+
+
+}
+
+@media only screen and (max-width: 639px) {
+
+    #pie img {
+        left: -100;
+    }
+
+    #pie h2 {
+        margin-top: 500px;
+    }
+
+    #pie {
+    margin-bottom: 300px;
+}
+
+    #research img {
+        left: 0;
+        width: 100%;
+        padding: 0% 10% 0% 10%;
+    }
+
+    #research h2 {
+        margin-top: 70px;
+    }
+
+    .outer, .top {
+        display: none;
+    }
+
+    #bottomline img, #stake img {
+        margin-top: 80px;
+}
+
+    #module img {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
